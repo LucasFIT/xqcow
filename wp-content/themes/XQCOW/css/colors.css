@@ -1,0 +1,99 @@
+/* Colors
+--------------------------------------------- */
+
+:root {
+    /* Custom colors */
+    --color-primary: #FFFFFF;
+    --color-secondary: #454545;
+    --color-red: #C73336;
+    --color-blue: #000;
+    --color-yellow: #FFBF00;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-light: #F7F7F7;
+    --color-dark: #B9B9B9;
+    --color-black: #000;
+    --color-grey: #999999;
+    --color-grey-alpha: rgba(206, 206, 206, .5);
+    --color-info: #454545;
+    --color-success: #0F8217;
+    --color-danger: #983a37;
+    /* Structure Colors */
+    --body-background: #F7F7F7;
+    --link: #000;
+    --top-header: #EFDDD8;
+    --top-header-text: #666666;
+    --top-header-icon: #666666;
+    --main-menu: #EFDDD8;
+    --main-menu-link: #fff;
+    --main-menu-link-hover: #fff;
+    --secondary-menu: #000;
+    --secondary-menu-link: #fff;
+    --secondary-menu-link-hover: #666666;
+    --menu-icon: #666666;
+    --cart-icon: #666666;
+    --cart-total: #7AAC00;
+    --cart-total-text: #fff;
+    --onsale-badge: #7AAC00;
+    --onsale-badge-text: #FFFFFF;
+    --store-info: #454545;
+    --price-loop-live-text: #000;
+    --price-loop-old-text: #989898;
+    --price-single-live-text: #20221D;
+    --price-single-old-text: #989898;
+    --button: #000;
+    --button-text: #fff;
+    --alt-button: #6d6c6c;
+    --alt-button-text: #EFDDD8;
+    --filter-tag: #454545;
+    --filter-tag-text: #FFFFFF;
+    --active-pagination: #454545;
+    --active-pagination-text: #FFFFFF;
+    --active-single-tab: #A88C30;
+    --footer: #F7F7F7;
+    --footer-copyright: #fff;
+    --footer-copyright-text: #000000;
+    --footer-copyright-link: #000000;
+    /* Social icons colors */
+    --instagram: #F54A4A;
+    --facebook: #4E76B5;
+    --whatsapp: #69D865;
+}
+
+
+/* Background color */
+
+.xqcow-bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.xqcow-bg-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.xqcow-bg-light {
+    background-color: var(--color-light) !important;
+}
+
+.xqcow-bg-dark {
+    background-color: var(--color-dark) !important;
+}
+
+.xqcow-bg-white {
+    background-color: var(--color-white) !important;
+}
+
+.xqcow-bg-black {
+    background-color: var(--color-black) !important;
+}
+
+
+/* Text color */
+
+.xqcow-text-white {
+    color: var(--color-white) !important;
+}
+
+.xqcow-text-black {
+    color: var(--color-black) !important;
+}

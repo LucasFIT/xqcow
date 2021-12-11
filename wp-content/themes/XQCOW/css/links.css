@@ -1,0 +1,36 @@
+/* Links
+--------------------------------------------- */
+
+a,
+.page a,
+.site-main a {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link);
+}
+
+.page a:focus,
+.page a:active {
+    color: var(--link);
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+.woocommerce table.shop_attributes a,
+.woocommerce .product_meta a {
+    color: var(--color-success);
+    text-decoration: none;
+}
+
+#post-10>div>div>div>p:nth-child(3)>a {
+    text-decoration: underline;
+}

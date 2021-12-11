@@ -1,0 +1,375 @@
+/* Footer contact
+-------------------------------*/
+.xqcow-container-footer-image
+{
+    display:flex;
+}
+
+.xqcow-images-footer
+{
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.xqcow-images-footer img
+{
+ 	max-height: 180px;
+	width: 100%;
+}
+
+.xqcow-block-text{
+    min-width: 370px;
+    height: 240px;
+    max-width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 35px;
+    box-shadow: 0px 5px 7px #cacaca;
+}
+
+.xqcow-block-text h2
+{
+    font-size:1em;
+    color:white;
+}
+
+
+.xqcow-block-text h3
+{
+    color: white;
+    font-size: 0.7em;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.xqcow-block-image{
+    width: 400px;
+    min-width: 370px;
+    height: 240px;
+    max-width: 40%;
+    box-shadow: -1px 4px 7px #cacaca;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.xqcow-block-main{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto !important;
+    margin-bottom: 80px;
+}
+
+
+.xqcow-footer-contact {
+    text-align: center;
+    max-width: 70%;
+    max-height: 300px;
+    margin: 3rem auto 7rem;
+}
+
+.xqcow-footer-contact h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-white);
+    text-align: left;
+}
+
+.xqcow-footer-contact h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.xqcow-footer-contact p {
+    font-size: 1rem;
+    color: var(--color-white);
+}
+
+.xqcow-banner-footer-right {
+    text-align: left;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.xqcow-contact-btn {
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 6px;
+    color: 2;
+    text-decoration:none;
+    font-size: 0.8em;
+    margin-top:10px !important;
+}
+
+ .xqcow-contact-btn:hover {
+    color: #fff;
+    border:solid 2px #fff;
+    background-color:#00244c;
+    text-decoration:none;
+    font-size: 0.8em;
+    margin-top:10px;
+ }
+
+.xqcow-banner-footer-right
+{
+    width: 600px;
+}
+    
+
+@media (max-width: 450px) {
+    .xqcow-footer-contact .xqcow-contact-btn {
+        display: block;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .xqcow-footer-contact {
+        flex-direction: column;
+    }
+    .xqcow-contact-col {
+        width: 100%;
+    }
+    .xqcow-footer-contact {
+        text-align: center;
+        max-width: 100%;
+        max-height: 1300px;
+        margin: 0;
+    }
+    
+
+    .xqcow-banner-footer-right {
+        text-align: center;
+        margin-left: 0px;
+        min-height: 200px;
+    }
+    .xqcow-banner-footer-img {
+        max-height: 500px !important;
+        margin: 0;
+        padding: 0 !important;
+    }
+    .xqcow-footer-contact h2 {
+        text-align: center;
+    }
+    .site-footer {
+        text-align: center !important;
+    }
+    
+    .banner-central-xqcow-center {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .xqcow-block-image-center {
+        height: 300px;
+        min-width: 360px;
+    }
+    
+    .xqcow-block-text-center {
+        height: 300px;
+        min-width: 360px;
+    }
+ 
+       
+}
+
+.xqcow-banner-footer-img {
+    height: 300px !important;
+    margin: 0;
+    padding: 0 !important;
+    object-fit: cover;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+    background-color: var(--footer);    
+    color: var(--color-black);
+    text-align: left;
+}
+
+.site-footer .container:first-child {
+    padding-top: 1.7em;
+    padding-bottom: 1em;
+}
+
+.site-footer h3 {
+    font-size: 1.2rem;
+}
+
+
+/* Footer Logo
+-------------------------------*/
+
+.xqcow-footer-logo {
+    width: 175px;
+    max-width: 175px;
+}
+
+.xqcow-footer-logo-container {
+    display: flex;
+}
+
+.xqcow-footer-logo-container .xqcow-social-list {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    max-height: 120px;
+}
+
+
+/* Footer menu
+-------------------------------*/
+
+.xqcow-footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.xqcow-footer-menu li a {
+    color: var(--color-black);
+    font-weight: 300;
+}
+
+
+/* Payments image
+-------------------------------*/
+
+.xqcow-payments img {
+    max-width: 200px;
+}
+
+
+/* Social Icons
+-------------------------------*/
+
+.xqcow-social-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.xqcow-social-list li a {
+    color: #666666;
+    font-size: 1.3em;
+    /* width: 40px;
+    height: 40px;
+    line-height: 40px; */
+    text-align: center;
+    margin-left: 0.6em;
+}
+
+.xqcow-social-list li a:hover {
+    color: black;
+}
+
+
+/* Footer Social icons
+-----------------------------------*/
+
+.site-footer .xqcow-social-list li a i {
+    font-size: 1.4em;
+}
+
+
+/* .site-footer .xqcow-social-list li a.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.site-footer .xqcow-social-list li a.facebook {
+    background-color: var(--facebook);
+}
+
+.site-footer .xqcow-social-list li a.whatsapp {
+    background-color: var(--whatsapp);
+} */
+
+
+/* Copyright
+-------------------------------*/
+
+.xqcow-footer-copyright {
+    background-color: var(--footer-copyright);
+    color: var(--footer-copyright-text);
+}
+
+.xqcow-footer-copyright p {
+    margin-bottom: 0;
+}
+
+.xqcow-footer-copyright a,
+.xqcow-footer-copyright a:hover {
+    color: var(--footer-copyright-link);
+}
+
+
+/* Scroll to top button
+------------------------------------*/
+
+#scroll-to-top {
+    display: inline-block;
+    background-color: var(--color-primary);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#scroll-to-top:hover {
+    cursor: pointer;
+    background-color: var(--color-secondary);
+}
+
+#scroll-to-top:active {
+    background-color: #555;
+}
+
+#scroll-to-top::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f106";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 2em;
+    line-height: 50px;
+    color: var(--color-white);
+}
+
+#scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}

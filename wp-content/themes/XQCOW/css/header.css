@@ -1,0 +1,441 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+/* Header Containers 
+--------------------------------------------*/
+
+.site-header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.xqcow-container-header {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    width: 78%;
+}
+
+@media (max-width: 1139px) {
+    .xqcow-container-header {
+        justify-content: space-around;
+        box-shadow: 2px 2px 3px 0px #d2cbcb;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1140px) and (max-width: 1500px) {
+    .xqcow-container-header {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1501px) {
+    .xqcow-container-header {
+        justify-content: space-between;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Top menu
+---------------------------------------------*/
+
+.xqcow-top-header {
+    background-color: var(--top-header);
+    padding: .5em;
+    color: var(--top-header-text);
+}
+
+#masthead>div.xqcow-container-header>span>ul>li {
+    margin-right: 7px;
+}
+
+.xqcow-top-header .xqcow-social-list li a,
+.xqcow-top-header .xqcow-social-list li a:hover {
+    color: var(--top-header-icon);
+}
+
+.xqcow-top-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+.xqcow-top-menu-header
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: solid 1px #E5E5E5;
+    font-size: 0.8em;
+}
+
+.xqcow-top-menu li a{
+    margin-right: 2em !important;
+}
+
+.xqcow-top-menu li a,
+.xqcow-top-menu li a:hover {
+    color: var(--top-header-text);
+}
+
+#primary-menu{
+    list-style: none;
+    margin: 10px 0px 0px 0px !important;
+    padding: 0px 15px;
+    font-size: 0.8em;
+}
+
+#primary-menu li a{
+    color: #00244b !important;
+    font-size: 1.2em;
+}
+/* Header image
+---------------------------------------------*/
+
+.xqcow-image-background {
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Logo
+---------------------------------------------*/
+
+.custom-logo-link img {
+    max-width: 200px;
+}
+
+@media (max-width: 450px) {
+    .custom-logo-link img {
+        max-width: 200px;
+    }
+}
+
+
+/* Search Form (AJAX Search for WooCommerce)
+--------------------------------------------*/
+
+.dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input,
+.dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+    background-color: #FFF !important;
+    border-style: none;
+    border-bottom-style: solid !important;
+    border-bottom-color: #666666 !important;
+    border-width: 1px !important;
+    padding: 1em;
+    border: none;
+}
+
+.dgwt-wcas-suggestions-wrapp {
+    background-color: #FFF !important;
+    border: 1px solid #A88C30;
+    color: #666666;
+}
+
+.dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit::before {
+    border: none;
+}
+
+.dgwt-wcas-ico-magnifier {
+    fill: var(--color-dark);
+}
+
+.dgwt-wcas-search-wrapp {
+    padding-left: 1em;
+    margin-bottom: .6em;
+    margin: 0;
+    width: 700px;
+    max-width: 700px;
+}
+
+@media (max-width: 450px) {
+    .dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input,
+    .dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+        max-width: 250px;
+    }
+    .xqcow-top-menu{
+        display:none;
+    }
+}
+
+
+/* Header icons
+--------------------------------------------*/
+
+.xqcow-header-icon {
+    display: block;
+    padding: 0 .5em;
+    align-self: center;
+    margin: 1em 0;
+}
+
+.xqcow-header-part-icon {
+    margin-top: 10px !important;
+}
+
+.xqcow-header-icon a,
+.xqcow-header-icon a:hover {
+    text-decoration: none;
+}
+
+.xqcow-header-icon a>i {
+    font-size: .8em;
+}
+
+.xqcow-icon,
+.xqcow-label {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+    color: var(--menu-icon);
+}
+
+.xqcow-icon :hover,
+.xqcow-label :hover {
+    color: black !important;
+}
+
+.xqcow-icon {
+    width: 10%;
+    text-align: center;
+}
+
+.xqcow-label {
+    width: 75%;
+}
+
+@media (min-width: 767px) {
+    .xqcow-icon,
+    .xqcow-label {
+        display: inline;
+    }
+    .xqcow-icon i {
+        font-size: 1.3em;
+    }
+}
+
+
+/* Cart
+---------------------------------------------*/
+
+.xqcow-cart {
+    position: relative;
+}
+
+.xqcow-cart i {
+    color: var(--cart-icon);
+}
+
+.xqcow-cart-count {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    background-color: var(--cart-total);
+    color: var(--cart-total-text);
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    font-weight: 500 !important;
+}
+
+.xqcow-cart-label {
+    margin-left: 2em;
+}
+
+@media (min-width: 767px) {
+    .xqcow-cart-label {
+        display: none;
+    }
+    .xqcow-cart-count {
+        top: 0;
+        left: 33px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
+
+
+/* Secondary Menu
+--------------------------------------------*/
+
+.xqcow-secondary-container {
+    background-color: var(--secondary-menu);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.xqcow-secondary-menu{
+    height: 57px !important;
+}
+@media screen and (max-width: 1140px) {
+    .xqcow-secondary-container {
+        height: 100%;
+    }
+    .xqcow-secondary-menu li:hover>ul {
+    display: none !important;
+    }
+
+}
+
+.xqcow-secondary-menu {
+    position: relative;
+    list-style-type: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: .4em 0;
+    height:70px;
+    
+}
+
+.xqcow-secondary-menu ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #00244c;
+    color: var(--secondary-menu-link);
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    opacity: 0.9;
+    border-radius: 0px;
+    z-index: -9999;
+    top:54px;
+    padding-top:5px;
+}
+
+
+
+.xqcow-secondary-menu li a {
+    color: var(--secondary-menu-link);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .8em;
+    display: inline-block;
+    width: 100%;
+    transition: all .2s ease-in;
+    border-radius: 8px;
+    padding: 1.2em;
+}
+
+.xqcow-secondary-menu li:hover>ul {
+    display: block;
+}
+
+.xqcow-secondary-menu li a:hover {
+    text-decoration: none;
+    background-color: #00244c;
+    color: white;
+    border-radius: 15px !important;
+    z-index: -9999;
+}
+
+@media(max-width: 450px) {
+    .xqcow-secondary-menu ul {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+/* Mobile Menu
+--------------------------------------------*/
+
+.xqcow-menu-toggle {
+    font-size: 2.5em;
+    z-index: 980;
+    margin-bottom: 0;
+    align-self: center;
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+#xqcow-menu-check {
+    display: none;
+}
+
+#xqcow-mobile-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 990;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#xqcow-closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: var(--color-blue);
+}
+
+#xqcow-closebtn:hover {
+    text-decoration: none;
+}
+
+#xqcow-mobile-menu .menu-item {
+    position: relative;
+}
+
+#xqcow-mobile-menu .menu-item i {
+    display:none !important;
+}
+
+@media screen and (min-width: 1140px) {
+    .xqcow-container-header {
+        padding: 1em 0;
+    }
+    .xqcow-menu-toggle,
+    #xqcow-mobile-menu {
+        display: none;
+    }
+    .xqcow-secondary-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 55px;
+    }
+    .xqcow-secondary-menu li a {
+       
+        font-size: 0.9em;
+        margin-bottom: 0;
+    }
+    .xqcow-image-background {
+        height: 300px;
+    }
+    .menu-item i {
+        display: none !important;
+    }
+}

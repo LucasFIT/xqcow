@@ -1,0 +1,399 @@
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+    display: none;
+}
+
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+
+.infinity-end.neverending .site-footer {
+    display: block;
+}
+
+
+/* Contact Form 7
+--------------------------------------------*/
+
+.wpcf7 label,
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form textarea,
+.wpcf7-form select {
+    width: 100%;
+}
+
+.wpcf7,
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form textarea {
+    padding: .5em;
+}
+
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form textarea,
+.wpcf7-form select {
+    border: solid 1px #D6D6D6;
+}
+
+.wpcf7 label:before {
+    content: "*";
+    color: #A88C30;
+}
+
+
+/* Product Slider */
+
+.wcpscwc-product-slider .slick-dots li button {
+    background-color: #353B41 !important;
+}
+
+.wcpscwc-product-slider .slick-dots li.slick-active button {
+    background-color: #B90312 !important;
+}
+
+
+/* Shortcodes Ultimate */
+
+.su-gmap {
+    margin: 0 !important;
+}
+
+.su-gmap iframe {
+    border: none!important;
+    width: 100%;
+    height: 400px;
+}
+
+
+/* YITH Wishlist */
+
+.add-to-wishlist-before_image .yith-wcwl-add-to-wishlist {
+    left: unset;
+    right: 10px;
+}
+
+.yith_wcwl_wishlist_footer .yith-wcwl-share {
+    float: unset;
+}
+
+
+/* Image Captcha
+----------------------------------------------*/
+
+.captcha-image {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.captcha-image label:before {
+    content: none;
+}
+
+
+/* Variable Swatches
+----------------------------------------------*/
+
+.woo-selected-variation-item-name {
+    display: none;
+}
+
+.woo-variation-swatches.wvs-style-squared .variable-items-wrapper .variable-item.button-variable-item.selected {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+}
+
+
+/* Shiping calculator
+----------------------------------------------*/
+
+.woocommerce #shipping-calc #delivery_truck {
+    fill: var(--color-primary) !important;
+}
+
+.woocommerce #shipping-calc #wscp-postcode.text {
+    width: unset !important;
+}
+
+tr.shipping th {
+    width: 50%;
+}
+
+@media (max-width: 380px) {
+    .woocommerce #shipping-calc #delivery_truck {
+        display: none !important;
+    }
+    .woocommerce #shipping-calc #wscp-postcode.text {
+        width: 96% !important;
+    }
+}
+
+
+/* YITH Request Quote
+----------------------------------------------*/
+
+th.product-subtotal,
+td.product-subtotal {
+    display: none !important;
+}
+
+td.product-thumbnail a img {
+    max-width: 200px;
+}
+
+.woocommerce .yith_ywraq_add_item_browse_message a {
+    display: inline-block;
+    padding: .4em .6em;
+    background-color: var(--button);
+    color: var(--button-text);
+    border: 1px solid var(--button);
+    transition: all 200ms ease-in;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Font Awesome\ 5 Free', 'Montserrat';
+    font-weight: 900;
+}
+
+.woocommerce .yith_ywraq_add_item_browse_message a:hover {
+    text-decoration: none;
+}
+
+
+/* Filter
+----------------------------------------------*/
+
+@media (max-width: 450px) {
+    .xqcow-main-category-filter {
+        height: unset !important;
+        flex-direction: row;
+    }
+    .WOOF_Widget {
+        height: unset !important;
+        width: 100% !important;
+    }
+    .woof_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .woocommerce-ordering {
+        max-width: 250px !important;
+        float: unset !important;
+        margin: 0 0 0 20px !important;
+    }
+    .orderby {
+        margin: -20px 0 0 0 !important;
+        max-width: 250px !important;
+    }
+    .woof_products_top_panel_ul li ul li {
+        margin: 5px !important;
+    }
+}
+
+.woof_list {
+    display: flex;
+}
+
+.xqcow-main-category-filter {
+    height: 65px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #6666;
+}
+
+.WOOF_Widget {
+    height: 30px;
+    margin: auto 0;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#primary>div>div.col-12>ul {
+    margin-top: 40px;
+}
+
+.woocommerce-ordering {
+    margin: 0 0 0 0;
+    height: 30px !important;
+}
+
+.orderby {
+    border: none !important;
+}
+
+#primary>div>div.d-flex.justify-content-between.xqcow-main-category-filter.w-100>form>select {
+    margin: 0 !important;
+}
+
+.woof_checkbox_term {
+    display: none;
+}
+
+.woof_childs_list_opener {
+    display: none !important;
+}
+
+.woof_submit_search_form_container {
+    display: none !important;
+}
+
+#secondary {
+    display: none !important;
+}
+
+
+
+/* Mercado Pago
+----------------------------------------------*/
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt
+{
+    background:#454545;
+    color:#efddd8;
+    width: 20% !important;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt:hover
+{
+    background:#454545;
+    color:#efddd8;
+}
+
+/* WPFORM FORMATER - INFORMAÇÕES DO CLIENTE */
+
+#wpforms-204-field_3-container {
+    display: flex !important;
+}
+
+#wpforms-204-field_4-container{
+    display: flex !important;
+}
+
+#wpforms-204-field_8-container{
+    display: flex !important;
+}
+
+#wpforms-204-field_6-container {
+    display: flex !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container
+{
+display: flex !important;
+justify-content: flex-end;
+}
+
+
+/* WPFORM FORMATER - SOBRE O PRODUTO */
+
+#wpforms-208-field_1-container
+{
+display:flex;
+}
+
+#wpforms-208-field_2-container{
+display:flex;
+}
+
+#wpforms-208-field_11-container {
+    display: flex;
+}
+
+#wpforms-208-field_11-container {
+    display: flex;
+}
+
+#wpforms-208-field_11-container {
+    display: flex;
+}
+
+#wpforms-208-field_12-container {
+    display: flex;
+}
+#wpforms-208-field_30-container {
+    display: flex;
+}
+
+#wpforms-208-field_23-container {
+    display: flex;
+}
+
+#wpforms-208-field_31-container {
+    display: flex;
+}
+
+#wpforms-208-field_25-container {
+    display: flex;
+}
+
+#wpforms-208-field_32-container {
+    display: flex;
+}
+
+#wpforms-208-field_27-container {
+    display: flex;
+}
+
+#wpforms-208-field_33-container {
+    display: flex;
+}
+
+#wpforms-208-field_35-container {
+    display: flex;
+}
+
+#wpforms-208-field_40-container {
+    display: flex;
+}
+
+#wpforms-208-field_45-container {
+    display: flex;
+}
+
+#wpforms-208-field_46-container {
+    display: flex;
+}
+
+#wpforms-208-field_47-container {
+    display: flex;
+}
+#wpforms-submit-208, #wpforms-submit-204 {
+    background: #a88c30;
+    color: white;
+    border-radius: 10%;
+}
+
+
+/* WPFORM FORMATER - INFORMAÇÕES DO CLIENTE */
+
+#wpforms-submit-215 {
+    background: #a88c30;
+    color: white;
+    border-radius: 10%;
+}
+
+.wbm_banner_image img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media (max-width: 800px) {
+ .wbm_banner_image img {
+    width: 100%;
+    height: auto;
+}
+    
+}

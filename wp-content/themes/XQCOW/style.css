@@ -1,0 +1,127 @@
+/*!
+Theme Name: XQCOW - Faculdade Impacta de Tecnologia
+Theme URI: http://underscores.me/
+Author: Lucas Eduardo Gomes, Igor Calandrino e Thalita Mariano
+Author URI: http://xqcow.XQCOW.io/
+Description: Este é um tema desenvolvido exclusivamente para o trabalho de conclusão do curso da FIT - Faculdade Impacta de Tecnologia
+Version: 3.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: xqcow
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+xqcow - XQCOW is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+    - Colors
+    - Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Components
+    # Header
+    # Content
+    # Footer
+    # Plugins
+    # Utilities
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Colors
+--------------------------------------------- */
+
+@import url('css/colors.css');
+
+/* Shortcodes
+--------------------------------------------- */
+
+@import url('css/shortcodes-style.css');
+
+/* Normalize
+--------------------------------------------- */
+
+@import url('css/normalize.css');
+
+/* Box sizing
+--------------------------------------------- */
+
+@import url('css/box-sizing.css');
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+
+@import url('css/typography.css');
+
+/* Elements
+--------------------------------------------- */
+
+@import url('css/elements.css');
+
+/* Links
+--------------------------------------------- */
+
+@import url('css/links.css');
+
+/* Forms
+--------------------------------------------- */
+
+@import url('css/forms.css');
+
+/*--------------------------------------------------------------
+## Components
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+@import url('css/header.css');
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+@import url('css/content.css');
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+@import url('css/footer.css');
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+@import url('css/plugins.css');
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+@import url('css/util.css');
